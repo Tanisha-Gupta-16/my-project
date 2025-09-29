@@ -46,6 +46,7 @@ return !isRegistered ?
        <input type = "password" placeholder="Password" name = "password" value = {password} onChange={(e)=>setPassword(e.target.value)}></input>
     </div>
        <button className="submitClass">Login</button>
+       <button className="submitClass">Login</button>
        <span className="text" onClick ={()=>setIsRegistered(false)}>Not registered? Register</span>
 </div>)
 }
